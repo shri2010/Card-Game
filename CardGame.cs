@@ -23,7 +23,7 @@ namespace CardGame
             {
                 Console.WriteLine(ex.ToString());
             }
-            
+
         }
 
         /// <summary>
@@ -44,14 +44,14 @@ namespace CardGame
             }
             else
             {
-                Console.WriteLine("Please enter valid input");
+                Console.WriteLine("Please Enter valid input");
             }
         }
 
 
         private static void PeformAction(GameOptionEnum option)
         {
-            
+
             switch (option)
             {
                 case GameOptionEnum.PlayCard:
@@ -97,7 +97,7 @@ namespace CardGame
         {
             var card = cardDeck.GetCard();
             Console.WriteLine($"Card {card.Suit} {card.Number}");
-                
+
         }
     }
 }
